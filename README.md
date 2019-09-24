@@ -1,3 +1,10 @@
+# Deep Skill Chaining
+Deep skill chaining has been developed on top of the popular `simple_rl` library for maximal readability and reproducability. 
+
+In addition to the installation requirements for `simple_rl`, DSC simply requires a MuJoCo install (which unfortunately requires a license). The conda env yaml file contains all the software dependencies that can be installed using anaconda. 
+
+The main file from which experiments can be run is `simple_rl/agents/func_approx/dsc/SkillChainingAgentClass.py`.
+
 # simple_rl
 A simple framework for experimenting with Reinforcement Learning in Python.
 
